@@ -3,10 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BiographyComponent } from './biography/biography.component';
+import { ResumeComponent } from './resume/resume.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BiographyComponent,
+    ResumeComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -15,4 +24,6 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }
